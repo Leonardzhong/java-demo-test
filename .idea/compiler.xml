@@ -18,10 +18,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Demo" />
         <module name="Demo-web" />
+        <module name="java-demo-test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Demo" target="8" />
+      <module name="java-demo-test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
