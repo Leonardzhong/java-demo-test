@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190320/BucketSort.java" line="37" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c364cd64-565e-4ed9-890d-4e507cede97b" name="Default" comment="" />
+    <ignored path="Demo.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/Demo-web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="196183874">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="20" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.60" value="2" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Executor" value="1" />
+          <entry key="class" value="6" />
+          <entry key="java" value="155" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="6" />
+          <entry key="JAVA" value="155" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="50" />
+          <entry key="java" value="12526" />
+          <entry key="txt" value="8" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="12526" />
+          <entry key="PLAIN_TEXT" value="58" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Demo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190320/BucketSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20181025/CommonDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20181025/GuavaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-176">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/jdk1.8.0_161/jre/lib/rt.jar!/java/util/LinkedList.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+              <folding>
+                <element signature="e#0#22107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/AbstractSequentialList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="68" column="64" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/AbstractList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/AbstractCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/Deque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="192" column="38" selection-start-line="192" selection-start-column="38" selection-end-line="192" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="181" lean-forward="true" selection-start-line="181" selection-end-line="181" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jdk</find>
+      <find>compile</find>
+      <find>ScheduledFuture</find>
+      <find>scheduleAtFixedRate</find>
+      <find>lombok</find>
+      <find>asList</find>
+      <find>isLetter</find>
+      <find>indexof</find>
+      <find>compareTo</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20180918/OrderDTOExtends.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20180918/JsonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20180922/AppointService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20180922/SaleOrderDispatchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20180922/TestAbstractClasss.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day0130/ExceptionTestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20181013/TestConcurrentModificationExcetpion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20181013/ConvertError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20181025/CommonDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20181025/GuavaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day1102/JdkDynamicProxy/BookFacadeProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day1102/Jdkdynamicproxy/BookFacadeProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day1102/jdkdynamicproxy/BookFacadeProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day1102/jdkdynamicproxy/BookFacadeImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day1102/cglibDynamicProxy/BookFacadeCglib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day1102/cglibdynamicproxy/BookFacadeCglib.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day1102/cglibdynamicproxy/BookFacadeCglibTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20180916/StreamTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20180916/StreamTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20180922/TestAbstractClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20180922/AbstractDispatchService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20180922/ReturnOrderDispatchServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20180922/DispatchService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20181013/TestConcurrentModificationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/LinkedHashMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/LRUTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/LRU.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/concurrentHashMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/ConcurrentHashMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/ConcurrentHashMapTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/ConcurrentHashMapTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/HashMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190314/AlgorithmTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190314/heapSortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190314/HeapSortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190314/BinarySearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190314/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190314/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190316/LargestSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190316/MaxSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/PartitionLables.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/PartitionLabels.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/TwoSumII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/ReverseVowelsOfaString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/IsPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190314/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190318/StringContainsOnlyDigit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190319/StringPatternMatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day20190320/BucketSortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/day20190320/BucketSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dailylearn/day20190320/BucketSort.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" value="" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="artifactory" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-231" />
+    <option name="y" value="170" />
+    <option name="width" value="1864" />
+    <option name="height" value="1092" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Ali-Check</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AlibabaAbstractMethodOrInterfaceMethodMustUseJavadoc</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
+      <showMembers ProjectPane="true" />
+      <hideEmptyPackages ProjectPane="true" />
+      <abbreviatePackageNames ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dailylearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dailylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="day20181025" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="Ex&#9;FILE&#9;file://D:/source/Demo/src/main/java/com/dailylearn/day0130/ExceptionTestService.java&#10;SpringManagedT&#9;PSI&#9;JAVA://org.mybatis.spring.transaction.SpringManagedTransaction" />
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553239253837" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="D:/MyProject/las-schedule/pom.xml" />
+    <property name="options.lastSelected" value="database.main" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2036824" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\source\Demo\src\main\java\com\springmvc\sql" />
+      <recent name="D:\source\Demo\src\main\webapp\WEB-INF\views\page" />
+      <recent name="D:\source\Demo\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\source\Demo\src\main\webapp\WEB-INF" />
+      <recent name="D:\Demo\src\main\webapp\plugs\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\source\Demo\src\main\resources\mapper" />
+      <recent name="D:\source\Demo\src\main\webapp\WEB-INF\views\page" />
+      <recent name="D:\source\Demo\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\source\Demo\src\main\webapp\WEB-INF\page" />
+      <recent name="D:\Demo\src\main\java\com\springmvc\sql" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BucketSortTest">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Demo" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dailylearn.day20190314.BinarySearch" />
+      <module name="Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dailylearn.day20190314.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BucketSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dailylearn.day20190320.BucketSortTest" />
+      <module name="Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dailylearn.day20190320.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dailylearn.IsPalindrome" />
+      <module name="Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dailylearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringContainsOnlyDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dailylearn.day20190318.StringContainsOnlyDigit" />
+      <module name="Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dailylearn.day20190318.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringPatternMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dailylearn.day20190319.StringPatternMatch" />
+      <module name="Demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dailylearn.day20190319.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo-web" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.6" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="update-resources" />
+      <deployment>
+        <artifact name="Demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Demo" />
+        <option name="HTTP_PORT" value="80" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65094" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_Demo" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65094" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Demo-web" />
+      <item itemvalue="Application.IsPalindrome" />
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.StringContainsOnlyDigit" />
+      <item itemvalue="Application.StringPatternMatch" />
+      <item itemvalue="Application.BucketSortTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BucketSortTest" />
+        <item itemvalue="Application.StringPatternMatch" />
+        <item itemvalue="Application.StringContainsOnlyDigit" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.IsPalindrome" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c364cd64-565e-4ed9-890d-4e507cede97b" name="Default" comment="" />
+      <created>1499422432645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499422432645</updated>
+      <workItem from="1499422435927" duration="3572000" />
+      <workItem from="1499652035880" duration="8599000" />
+      <workItem from="1499668505617" duration="37000" />
+      <workItem from="1499671048476" duration="809000" />
+      <workItem from="1499672336176" duration="8446000" />
+      <workItem from="1499735174983" duration="56782000" />
+      <workItem from="1500187298340" duration="7608000" />
+      <workItem from="1500298047387" duration="5276000" />
+      <workItem from="1500529638397" duration="6586000" />
+      <workItem from="1500623004545" duration="2164000" />
+      <workItem from="1501902959313" duration="10580000" />
+      <workItem from="1502066584893" duration="56000" />
+      <workItem from="1502092219627" duration="12696000" />
+      <workItem from="1502436693775" duration="1886000" />
+      <workItem from="1502440577355" duration="19361000" />
+      <workItem from="1502528574249" duration="955000" />
+      <workItem from="1502529574225" duration="2218000" />
+      <workItem from="1502532113772" duration="6535000" />
+      <workItem from="1502672410695" duration="49349000" />
+      <workItem from="1502784079914" duration="48222000" />
+      <workItem from="1503072850828" duration="2043000" />
+      <workItem from="1503131708897" duration="1115000" />
+      <workItem from="1503134954305" duration="6451000" />
+      <workItem from="1503156556595" duration="1149000" />
+      <workItem from="1503190830782" duration="50000" />
+      <workItem from="1504694119416" duration="23869000" />
+      <workItem from="1504832877432" duration="23885000" />
+      <workItem from="1507543983842" duration="1492000" />
+      <workItem from="1509608353771" duration="30201000" />
+      <workItem from="1509935675809" duration="47349000" />
+      <workItem from="1510577844161" duration="6878000" />
+      <workItem from="1510727705298" duration="3100000" />
+      <workItem from="1511099474513" duration="94000" />
+      <workItem from="1517280099161" duration="2618000" />
+      <workItem from="1517296856705" duration="882000" />
+      <workItem from="1517478202453" duration="2027000" />
+      <workItem from="1536918249804" duration="4536000" />
+      <workItem from="1536927218831" duration="6004000" />
+      <workItem from="1537014229700" duration="12314000" />
+      <workItem from="1537146944795" duration="7345000" />
+      <workItem from="1537265120500" duration="9805000" />
+      <workItem from="1537608269689" duration="3451000" />
+      <workItem from="1537778735022" duration="1556000" />
+      <workItem from="1537838209876" duration="45000" />
+      <workItem from="1537838296734" duration="92000" />
+      <workItem from="1538188175252" duration="5599000" />
+      <workItem from="1538961617828" duration="4096000" />
+      <workItem from="1538983444145" duration="640000" />
+      <workItem from="1539434238647" duration="2537000" />
+      <workItem from="1540462819267" duration="11449000" />
+      <workItem from="1541573667948" duration="3736000" />
+      <workItem from="1547544602441" duration="10254000" />
+      <workItem from="1548054061242" duration="5768000" />
+      <workItem from="1551231614816" duration="10925000" />
+      <workItem from="1552541219471" duration="63750000" />
+      <workItem from="1552986133214" duration="18000" />
+      <workItem from="1552986233388" duration="241000" />
+      <workItem from="1552986557755" duration="12288000" />
+      <workItem from="1553159338784" duration="60000" />
+      <workItem from="1553165002899" duration="5639000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="587088000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-9" width="1864" height="1098" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Palette&#9;" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info active="true" content_ui="combo" x="584" y="155" width="478" height="834" id="Project" order="3" sideWeight="0.48226163" visible="true" weight="0.26383454" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Web" order="5" sideWeight="0.51108646" weight="0.25600895" />
+      <window_info x="800" y="190" width="394" height="700" id="Favorites" order="6" sideWeight="0.51773834" weight="0.25600895" />
+      <window_info x="761" y="89" width="472" height="902" id="Structure" order="7" weight="0.26383454" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="0" weight="0.32918552" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="1" weight="0.32918552" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="2" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.44759357" side_tool="true" weight="0.35300547" />
+      <window_info anchor="bottom" id="Application Servers" order="4" weight="0.11837655" />
+      <window_info anchor="bottom" id="Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.26839826" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3280543" />
+      <window_info anchor="bottom" id="IDEtalk Messages" order="9" />
+      <window_info anchor="bottom" id="Message" order="10" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.28603104" />
+      <window_info anchor="bottom" x="25" y="388" width="1870" height="304" id="Run" order="12" weight="0.18847007" />
+      <window_info anchor="bottom" id="Debug" order="13" sideWeight="0.55187166" weight="0.29711753" />
+      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.39935064" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.25166297" />
+      <window_info anchor="bottom" id="TODO" order="17" weight="0.32900432" />
+      <window_info anchor="bottom" id="Java Enterprise" order="18" weight="0.32900432" />
+      <window_info anchor="bottom" id="Database Console" order="19" weight="0.3365801" />
+      <window_info anchor="bottom" id="Database Changes" order="20" weight="0.32918552" />
+      <window_info anchor="bottom" id="Console" order="21" side_tool="true" />
+      <window_info anchor="bottom" id="风险组件扫描" order="22" weight="0.3292683" />
+      <window_info anchor="bottom" id="Duplication Code Results" order="23" weight="0.3292683" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="IDEtalk" order="1" weight="0.32994652" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.12875536" />
+      <window_info anchor="right" id="Designer" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.16630901" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.24946351" />
+      <window_info anchor="right" id="Dynamic Properties" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Bone Project" order="11" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/ConcurrentHashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12166">
+          <caret line="621" column="23" selection-start-line="621" selection-start-column="23" selection-end-line="621" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/ConcurrentHashMapTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4180">
+          <caret line="229" column="16" selection-start-line="229" selection-start-column="16" selection-end-line="229" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/GregorianCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6182">
+          <caret line="329" column="13" selection-start-line="329" selection-start-column="13" selection-end-line="329" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="97" column="31" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1694">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7656">
+          <caret line="374" column="14" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/objects/Global.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="816" column="40" selection-start-line="816" selection-start-column="40" selection-end-line="816" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/PartitionLables.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/HashMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="138" column="6" lean-forward="true" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/lang/CharacterData00.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="138" column="24" lean-forward="true" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/lang/CharacterData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/TwoSumII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="805" column="15" selection-start-line="805" selection-start-column="15" selection-end-line="805" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/ReverseVowelsOfaString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/lang/Character.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="6334" column="19" selection-start-line="6334" selection-start-column="19" selection-end-line="6334" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190227/LRU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190316/MaxSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190314/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190314/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190314/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190318/StringContainsOnlyDigit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24156">
+          <caret line="1155" column="20" selection-start-line="1155" selection-start-column="20" selection-end-line="1155" selection-end-column="20" />
+          <folding>
+            <element signature="e#5687#5688#0" expanded="true" />
+            <element signature="e#5750#5751#0" expanded="true" />
+            <element signature="e#22786#22787#0" expanded="true" />
+            <element signature="e#22821#22822#0" expanded="true" />
+            <element signature="e#23072#23073#0" expanded="true" />
+            <element signature="e#23112#23113#0" expanded="true" />
+            <element signature="e#82616#82617#0" expanded="true" />
+            <element signature="e#82667#82668#0" expanded="true" />
+            <element signature="e#104675#104676#0" expanded="true" />
+            <element signature="e#104730#104731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="182" column="33" selection-start-line="182" selection-start-column="33" selection-end-line="182" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="545" column="6" lean-forward="true" selection-start-line="545" selection-start-column="6" selection-end-line="545" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190319/StringPatternMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20180916/StreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6358">
+          <caret line="319" column="7" selection-start-line="319" selection-start-column="7" selection-end-line="319" selection-end-column="7" />
+          <folding>
+            <element signature="e#4308#4309#0" expanded="true" />
+            <element signature="e#4360#4361#0" expanded="true" />
+            <element signature="e#12158#12159#0" expanded="true" />
+            <element signature="e#12189#12190#0" expanded="true" />
+            <element signature="e#13000#13001#0" expanded="true" />
+            <element signature="e#13056#13057#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2596">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="58" column="2" selection-start-line="58" selection-start-column="2" selection-end-line="58" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190320/BucketSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/IsPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/PartitionLabels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="70" column="58" selection-start-line="70" selection-start-column="58" selection-end-line="70" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/AbstractSequentialList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="68" column="64" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="192" column="38" selection-start-line="192" selection-start-column="38" selection-end-line="192" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="181" lean-forward="true" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/jdk1.8.0_161/jre/lib/rt.jar!/java/util/LinkedList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#22107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20190320/BucketSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20181025/CommonDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailylearn/day20181025/GuavaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Demo:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2036824" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (Demo)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2036824" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2036824" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2036824" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|Demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2036824" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2036824" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="clean install -Dmaven.test.skip=true -P test" />
+  </component>
+</project>

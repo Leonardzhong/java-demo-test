@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.springmvc.sql.AccountManageMapper">
+
+    <select id="getUserCountByMultiOrg" resultType="java.lang.Integer" parameterType="java.util.Map">
+        SELECT count(1) FROM (
+        select count(1)
+        from jdams_user
+        <where>
+            1=1
+            <if test="id!=null and id!=''">
+                and jdams_user.id =#{id,jdbcType=VARCHAR}
+            </if>
+            <if test="erpOrName!=null and erpOrName!=''">
+                and ( jdams_user.userName =#{erpOrName,jdbcType=VARCHAR} OR jdams_user.boundErp = #{erpOrName,jdbcType=VARCHAR} OR jdams_user.extranetNo = #{erpOrName,jdbcType=VARCHAR})
+            </if>
+            <if test="area!=null and area!=''">
+                and jdams_user.orgNo =#{area,jdbcType=VARCHAR}
+            </if>
+            <if test="operateCenter!=null and operateCenter!=''">
+                and jdams_user.distributeNo =#{operateCenter,jdbcType=VARCHAR}
+            </if>
+            <if test="roleList!=null and roleList.size()>0">
+                and jdams_user.userNo in (select distinct userNo from jdams_role,jdams_role_user where jdams_role.roleNo=jdams_role_user.roleNo
+                <foreach collection="roleList" item="item" open="and jdams_role.roleNo IN(" separator="," close=")">
+                    #{item}
+                </foreach>
+                )
+            </if>
+            <if test="extranetNo!=null and extranetNo!=''">
+                and jdams_user.extranetNo =#{extranetNo,jdbcType=VARCHAR}
+            </if>
+            <!-- 多区域支持 -->
+            <if test="orgNos !=null and orgNos.size()>0">
+                and
+                <foreach item="item" collection="orgNos" separator="OR" open="(" close=")" index="index">
+                    (jdams_user.orgNo = #{item.org_no}
+                    <if test="item.distribute_no != null and item.distribute_no !=''  ">
+                        AND jdams_user.distributeNo = #{item.distribute_no}
+                    </if>
+                    )
+                </foreach>
+            </if>
+            <!-- 多区域支持 -->
+            <if test="disributeNos !=null and disributeNos.size()>0">
+                and (jdams_user.distributeNo IN
+                <foreach item="item" collection="disributeNos" separator="," open="(" close=")" index="index">
+                    #{item}
+                </foreach>
+                <![CDATA[
+                  OR jdams_user.distributeNo IS NULL OR jdams_user.distributeNo = '' OR jdams_user.distributeNo = '#')
+                 ]]>
+            </if>
+        </where>
+        GROUP BY jdams_user.userNo ) tempTable
+    </select>
+
+    <select id="getUserListByParamForMultiOrg" resultType="java.util.LinkedHashMap"  parameterType= "java.util.Map">
+        select id,count(1) as userCount,boundErp,userName,orgName,distributeName,(select group_concat(jdams_role.roleName) from jdams_role,jdams_role_user where jdams_role.roleNo=jdams_role_user.roleNo and jdams_role_user.userNo=jdams_user.userNo) roleName , extranetNo,mac1,brand1,mac2,brand2
+        from jdams_user
+        <where>
+        1=1
+        <if test = "id != null and id != ''">
+            and jdams_user.id = #{id, jdbcType = VARCHAR }
+        </if>
+        <if test ="erpOrName!=null and erpOrName!=''">
+            and (jdams_user.userName =#{erpOrName, jdbcType=VARCHAR} OR jdams_user.boundErp =#{erpOrName, jdbcType=VARCHAR} OR jdams_user.extranetNo =#{erpOrName, jdbcType=VARCHAR})
+        </if>
+        <if test="area != null and area !=''">
+            and jdams_user.orgNo =#{area, jdbcType=VARCHAR}
+        </if>
+        <if test="operateCenter!=null and operateCenter!=''">
+            and jdams_user.distributeNo =#{operateCenter, jdbcType=VARCHAR}
+        </if>
+        <if test="roleList !=null and roleList.size()>0">
+        and  jdams_user.userNo in (select distinct userNo from jdams_role,jdams_role_user where jdams_role.roleNo=jdams_role_user.roleNo
+        <foreach collection="roleList" item="item" open="and jdams_role.roleNo IN(" separator="," close=")">
+            #{item}
+        </foreach>
+        )
+        </if>
+
+        <if test= "extranetNo !=null and extranetNo!=''">
+            and jdams_user.extranetNo=#{extranetNo, jdbcType=VARCHAR}
+        </if >
+
+        <if test="orgNos !=null and orgNos.size()>0">
+        and
+        <foreach item ="item" collection="orgNos" separator="OR" open="(" index="index">
+            (jdams_user.orgNo= #{item.org_no}
+            <if test= "item.distribute_no != null and item.distribute_no !=''">
+                AND jdams_user.distributeNo =# {item.distribute_no}
+            </if>
+            )
+        </foreach>
+        </if>
+        </where>
+    </select>
+</mapper>

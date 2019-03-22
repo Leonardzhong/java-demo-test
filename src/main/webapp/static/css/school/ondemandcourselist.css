@@ -1,0 +1,253 @@
+.order{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.order .btn,.item_view .btn,.site .btn{
+    min-width: 0;
+    padding:0 10px;
+    position: relative;
+}
+.order i{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+}
+.order .arrowup{
+    border-bottom: 5px solid #999999;
+    margin-top: -2px;
+    top: 30%;
+}
+.order .arrowdown{
+    border-top: 5px solid #999999;
+    margin-top: -2.5px;
+    top: 60%;
+}
+.desc .arrowdown{
+    border-top: 5px solid #186aa4;
+}
+.asc .arrowup{
+    border-bottom: 5px solid #186aa4;
+}
+.order .desc i,.order .asc i{
+    display: block;
+}
+.order .desc i,.order .asc i{
+    display: block;
+}
+.order .desc i{
+    background: url(../../img/arrow_order.png) no-repeat 0 0;
+}
+.order .asc i{
+    background: url(../../img/arrow_order.png) no-repeat 0 -12px;
+}
+
+.list_title .pagination{
+    float: right;
+    width: 950px;
+    margin: 0 auto;
+}
+.list_title .empty_tips{
+    display: none;
+}
+.list_title .site{
+    float:right;
+}
+
+
+/*NEW*/
+.one_lvc{
+    margin: 15px 17.5px 15px 0px;
+    /*padding: 1px;*/
+}
+.one_lvc:hover{
+    box-shadow:0px 0px 5px rgba(48,48,48,0.3);
+}
+.one_lvc_img{
+    width: 100%;
+    z-index: -255;
+}
+.off_lvc_free{
+    color: #5fb41b;
+}
+.off_lvc_name{
+    font-size: 14px;
+}
+.ondemand_playcount,
+.off_lvc_name,
+.aondemand_fee{
+    padding: 0 10px;
+    list-style-type:none;
+}
+.off_lvc_th img{
+    width: 16px;
+    height:16px;
+    vertical-align: middle;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    margin-top: 5px;
+}
+.ondemand_playcount,
+.teacherName{
+    color: #9f9f9f;
+}
+.ondemand_playcount{
+    padding-bottom: 10px;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.list_title{
+    background:#F7F8F9;
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.aondemand_bg{
+    /*display: inline-block;*/
+    margin-left: 20px;
+}
+
+.list {
+    margin-left: 10px;
+    width: 1000px;
+    height: 500px;
+}
+
+.list .ondemandCourseList{
+    width: 950px;
+    height: 500px;
+}
+.list a{
+    color: #303030;
+}
+.ondemand_num{
+    color: #999999;
+}
+.ondemand_num .count{
+    color: #cc0000;
+}
+.title{
+    height: 78px;
+    line-height: 78px;
+    font-size: 22px;
+    padding-left: 22px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.ondemand_sortField{
+    height: 25px;
+    border:1px solid #d8d8d8;
+    color:#303030;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 25px;
+    overflow: visible;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    background-color: #fff;
+    padding: 0px 25px 0px 10px;
+    position: relative;
+}
+.active{
+    border-color: #186aa4;
+    color:#186aa4;
+}
+.ondemand_sortField:hover{
+    border-color: #186aa4;
+}
+.order a:hover{
+    text-decoration: none;
+}
+.ondemand_sortField span{
+    width: 3px;
+    height: 3px;
+    background-color: #303030;
+    display: inline-block;
+}
+.aondemand_img{
+    height: 124px;
+    overflow: hidden;
+    width: 220px;
+}
+
+.edit_class{
+    width: 20px;
+    height: 20px;
+    margin-top: -165px;
+    margin-left: 200px;
+    z-index:100;
+}
+
+.del_class{
+    width: 20px;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: 175px;
+    z-index:100;
+}
+
+.teacherName{
+    max-width: 80px;
+}
+.off_lvc_name{
+    max-width: 180px;
+}
+.teacherName, .off_lvc_name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.side_title{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+.ondemand_side_h{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 15px;
+    line-height: 50px;
+}
+
+.ondemand_side_h a:hover{
+    text-decoration: none;
+}
+#ondemand_otherList .one_lvc {
+    margin: 0 10px 20px;
+}
+.ondemand_side_h a {
+    color:#9f9f9f ;
+}
+a{
+    color: #303030;
+}
+
+.ondemand_typeField {
+    height: 30px;
+    border:1px solid #d8d8d8;
+    color:#303030;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 25px;
+    overflow: visible;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    background-color: #fff;
+    padding: 0px 25px 0px 10px;
+    position: relative;
+}

@@ -1,0 +1,46 @@
+.titleContainer {
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 0px;
+    margin-left: 0px;
+    line-height: 47px;
+    float: left;
+}
+
+.titleRow, .gridRow {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.pagination {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.paginationNav {
+    float: right;
+    line-height: 47px;
+    padding-top: 5px;
+}
+
+.gridRow {
+    border-bottom: 0px;
+    padding-top: 5px;
+}
+
+.gridRow ul li {
+    padding: 5px 10px;
+    list-style: disc;
+    margin-left: 15px;
+}
+
+.gridDate {
+    float: right;
+    margin-left: 30px;
+}
+
+.gridUser {
+    float: right;
+}

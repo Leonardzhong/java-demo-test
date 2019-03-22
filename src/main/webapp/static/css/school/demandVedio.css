@@ -1,0 +1,525 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    overflow: auto;
+}
+
+.mainContainer {
+    padding: 0px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.form-control {
+    font-size: 12px;
+}
+
+label {
+    line-height: 40px;
+    text-align: right;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+.addressControl {
+    width: 25%;
+    float: left;
+}
+
+.addressControlSpecial {
+    width: 123px;
+    float: left;
+}
+
+.well {
+    display: block;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.timeControl {
+    width: 50%;
+    float:left;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.modal label, .modal {
+    font-size: 12px;
+}
+
+.modal table {
+    width: 100%;
+}
+
+.modal table td {
+    padding-left: 10px;
+}
+
+.addressInputControl {
+    float: left;
+    width: 317px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.company_type_add {
+    margin-top: 13px;
+}
+
+#resultGrid, #resultGridModify, #resultImGrid, #resultTmsGrid {
+    font-size: 12px;
+}
+
+.switchAll {
+    padding-left: 10px !important;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: #c01213;
+    min-width: 1280px;
+}
+
+#resultGrid, #resultGridModify, #resultImGrid, #resultTmsGrid  {
+    border: 1px solid #ddd;
+}
+
+#resultGrid thead th, #resultGridModify thead th, #resultImGrid thead th, #resultTmsGrid thead th {
+    border-color: #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: normal !important;
+    text-align: left;
+}
+
+#resultGrid thead th:not(:last-child), #resultGrid tbody tr td:not(:last-child), #resultGridModify thead th:not(:last-child), #resultGridModify tbody tr td:not(:last-child), #resultImGrid thead th:not(:last-child), #resultImGrid tbody tr td:not(:last-child),
+#resultTmsGrid thead th:not(:last-child), #resultTmsGrid tbody tr td:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+thead {
+    background: rgb(217, 237, 247);
+}
+
+.table-row:hover {
+    background-color: rgb(250, 240, 190);
+}
+
+.noPaddingLeft {
+    padding-left: 0px;
+}
+
+.noPaddingRight {
+    padding-right: 0px;
+}
+
+#resultGrid tfoot th {
+    border-color: #ddd;
+    text-align: left;
+}
+
+.footerInfo {
+    line-height: 30px;
+    float: left;
+    margin-left: 5px;
+}
+
+.footerSelector {
+    width: 70px;
+    float: left;
+}
+
+.pageNoInput {
+    width: 62px;
+    float: left;
+}
+
+.firstPage, .prevPage, .refreshBtn, .nextPage, .lastPage {
+    float: left;
+    color: #46b8da;
+    line-height: 28px;
+    margin-left: 5px;
+}
+
+.refreshBtn {
+    color: #449d44;
+}
+
+.pageNoInputContainer {
+    line-height: 30px;
+}
+
+.btnseparator {
+    float: left;
+    height: 30px;
+    border-left: 1px solid rgb(204, 204, 204);
+    border-right: 1px solid rgb(255, 255, 255);
+    margin: 1px;
+    margin-left: 10px;
+}
+
+table.dataTable tfoot th, table.dataTable tfoot td {
+    border: none;
+    border-radius: 0px;
+}
+
+table button {
+    width: 50px;
+    height: 25px;
+    font-size: 10px !important;
+    padding: 4px !important;
+    float: left;
+}
+
+.alertInfo {
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.alertConfirmBtn {
+    margin-top: 10px;
+}
+
+.alertCloseBtn {
+    margin-top: 10px;
+}
+
+.confirmAlert {
+    display: none;
+    position: fixed;
+    top: 150px;
+    width: 950px;
+    z-index: 9999;
+    left: 173px;
+}
+
+.wellFooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5 !important;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#uploadBtn, #uploadBtnModify {
+    margin-top: 10px;
+}
+
+#selectedFilesName, #selectedFilesNameModify {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.progress, .progressModify {
+    display: none;
+}
+
+.progressRow, .progressRowModify {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.shadowContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #000;
+    opacity: .5 !important;
+}
+
+.shadowContainer .in {
+    opacity: .5 !important;
+}
+
+.shadowContainer .fade {
+    opacity: .5 !important;
+}
+
+.specialProgress {
+    height: 20px;
+    border-radius: 4px;
+}
+
+.alertValidate, .alertModifyValidate {
+    margin-left: 10px;
+}
+
+.alertValidate label, .alertModifyValidate label {
+    line-height: 14px !important;
+    display: block !important;
+    text-align: left !important;
+}
+
+input.error, select.error {
+    border: 1px solid #a94442;
+}
+
+#confirmModal .confirmContent, #confirmInfoModal .confirmInfoContent, .deleteConfirmModal .confirmContent, .confirmModifyModal .confirmModifyContent {
+    font-size: 14px;
+    margin: 25px;
+    font-weight: bold;
+}
+
+.queryContainer {
+    font-size: 12px;
+    width: 100%;
+}
+
+.queryContainer td {
+    padding: 0px;
+    overflow: hidden;
+}
+
+.labelTd {
+    width: 80px !important;
+}
+
+.bootstrapBtn{
+    background: #f24f44 none repeat scroll 0 0;
+    border: 1px solid #f24f44;
+    color: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    height: 30px;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+    width: 98px;
+}
+.bootstrapBtn:hover {
+    background: #fb766d none repeat scroll 0 0;
+    border: 1px solid #fb766d;
+}
+
+.bootstrapBtnWarning{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #d9d9d9;
+    color: #959595;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    height: 30px;
+    margin: 10px 10px 0px 10px;
+    text-align: center;
+    width: 98px;
+}
+
+.bootstrapBtnWarning:hover {
+    border: 1px solid #f24f44;
+    color: #f24f44;
+}
+
+.modifySiteInfoBtn, .deleteSiteInfoBtn {
+    width: 50px;
+    margin: 0px;
+    padding: 4px;
+}
+
+.deleteUploadedBtnModify {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.modal-open {
+    overflow: hidden
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    -webkit-transform: translate3d(0, -25%, 0);
+    -o-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0)
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5)
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000
+}
+
+.modal-backdrop.fade {
+    filter: alpha(opacity=0);
+    opacity: 0
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.modal-header .close {
+    margin-top: -2px
+}
+
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143
+}
+
+.modal-body {
+    position: relative;
+    padding: 15px
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5
+}
+
+.modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px
+}
+
+.modal-footer .btn-group .btn + .btn {
+    margin-left: -1px
+}
+
+.modal-footer .btn-block + .btn-block {
+    margin-left: 0
+}
+
+.modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto
+    }
+
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
+    }
+
+    .modal-sm {
+        width: 300px
+    }
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 900px
+    }
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .2
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0
+}

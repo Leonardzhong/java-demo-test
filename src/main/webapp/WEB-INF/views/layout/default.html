@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>京东帮</title>
+    <!-- <link rel="stylesheet" type="text/css" href="#springUrl('/static/css/erpbase.css')" media="all"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="#springUrl('/static/css/erpmanage.css')"  media="all"> -->
+    <link rel="stylesheet"  type="text/css" href="#springUrl('/static/css/bootstrap.min.css')"   media="all">
+    <link rel="stylesheet"  type="text/css" href="#springUrl('/static/css/bootstrap-theme.min.css')" />
+    <link rel="stylesheet"  type="text/css" href="#springUrl('/static/css/common.css')" />
+    <link rel="stylesheet"  type="text/css" href="#springUrl('/static/css/jquery-ui.css')" />
+    <!-- 		<link href="#springUrl('/static/js/DataTable/dataTables.colReorder.css')" rel="stylesheet">
+    <link href="#springUrl('/static/js/DataTable/jquery.dataTables.css')" rel="stylesheet"> -->
+    <link rel="stylesheet"  type="text/css" href="#springUrl('/static/css/flexigrid/flexigrid.css')" />
+    <link rel="stylesheet" type="text/css" href="#springUrl('/static/css/jquery.typeahead.min.css')" />
+    <script type="text/javascript" src="#springUrl('/static/js/jquery.min.js')"></script>
+    <script type="text/javascript" src="#springUrl('/static/js/jquery.ui.min.js')"></script>
+    <!--	<script type="text/javascript" src="#springUrl('/static/js/jquery-1.11.0.min.js')"></script>-->
+    <script type="text/javascript" src="#springUrl('/static/js/bootstrap.min.js')"></script>
+    <script type="text/javascript" src="#springUrl('/static/js/bootstrap-paginator.min.js')"></script>
+    <!--	<script type="text/javascript" src="#springUrl('/static/js/jquery-ui.js')"></script>	-->
+
+    <script type="text/javascript" src="#springUrl('/static/js/header.js?version=201503061736')"></script>
+    <script type="text/javascript" src="#springUrl('/static/js/flexigrid/flexigrid.js')"></script>
+    <script type="text/javascript" src="#springUrl('/static/js/jquery.typeahead.min.js')"></script>
+
+    <script type="text/javascript">
+        var jaq = jaq || [];
+        <!--站点编号,站点域名,ERP帐号-->
+        jaq.push(['account', 'UAINT-J2015-30007']);
+        jaq.push(['domain', window.location.href.substring(0,window.location.href.indexOf('.com'))+'.com']);
+        jaq.push(['erp_account', '${pin}']);
+        (function () {
+            var ja = document.createElement('script');
+            ja.type = 'text/javascript';
+            ja.async = true;
+            ja.src = ('https:' == document.location.protocol ? 'https://cscssl' : 'http://csc') + '.jd.com/joya.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ja, s);
+        })();
+    </script>
+
+    <!-- 全局统一表格列宽度调整效果 -->
+    <style type="text/css">
+        .rc-handle-container{position:relative;}
+        .rc-handle{position:absolute;width:7px;cursor:ew-resize;*cursor:pointer;margin-left:-3px;}
+    </style>
+    <script type="text/javascript" src="/static/js/jquery.resizableColumns.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            //列宽调整效果
+            $("table").resizableColumns({});
+        });
+    </script>
+
+    <!-- 全局遮罩控制效果 -->
+    <link rel="stylesheet"  type="text/css" href="/static/css/showLoading.css" rel="stylesheet" type="text/css" />
+    <style>
+        .bootstrapBtn{
+            background: #f24f44 none repeat scroll 0 0;
+            border: 1px solid #f24f44;
+            color: #fff;
+            border-radius: 2px;
+            display: inline-block;
+            font-size: 12px;
+            height: 30px;
+            line-height: 30px;
+            margin: 0 10px;
+            text-align: center;
+            width: 98px;
+        }
+        .bootstrapBtn:hover {
+            background: #fb766d none repeat scroll 0 0;
+            border: 1px solid #fb766d;
+        }
+
+        .bootstrapBtnWarning{
+            background: #fff none repeat scroll 0 0;
+            border: 1px solid #d9d9d9;
+            color: #959595;
+            border-radius: 2px;
+            display: inline-block;
+            font-size: 12px;
+            height: 30px;
+            line-height: 30px;
+            margin: 0 10px;
+            text-align: center;
+            width: 98px;
+        }
+
+        .bootstrapBtnWarning:hover {
+            border: 1px solid #f24f44;
+            color: #f24f44;
+        }
+    </style>
+    <script type="text/javascript" src="/static/js/jquery.showLoading.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            //遮罩控制效果
+            $.ajaxPrefilter(function(options) {
+                options.global = true;
+            });
+
+            //共用这2个全局的ajax事件
+            $(document).ajaxStart(function(){
+                //显示遮罩
+                $("body").showLoading();
+            });
+            $(document).ajaxStop(function(){
+                //去除遮罩
+                $("body").hideLoading();
+            });
+
+        });
+    </script>
+    <!-- 图标 -->
+    <link rel="stylesheet" type="text/css" href="/static/js/ui/jquery-easyui-1.4.3/themes/icon.css">
+    <!-- easyUi 主题-->
+    <link rel="stylesheet" type="text/css" href="/static/js/ui/jquery-easyui-1.4.3/themes/bootstrap/easyui.css">
+    <!-- easyui主js文件 -->
+    <script type="text/javascript" src="/static/js/ui/jquery-easyui-1.4.3/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/static/js/ui/jquery-easyui-1.4.3/locale/easyui-lang-zh_CN.js"></script>
+    <!-- util js -->
+    <script type="text/javascript" src="/static/js/common/util.js"></script>
+    <script type="text/javascript" src="/static/js/common/json2.js"></script>
+</head>
+<body style="overflow-x:hidden;overflow-y:auto;">
+$screen_content
+</body>
+</html> 

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+        <mapper namespace="com.springmvc.mapper.SchoolLiveMapper">
+    <select id="countSchoolLiveRecord"  resultType="Integer" parameterType="com.springmvc.entity.domain.SchoolLiveRecord">
+       select count(1)
+       from  school_live_report
+        <where>
+            1=1
+            <if test="userPin != null and userPin != ''" >
+                and user_pin = #{usrPin, jdbcType=VARCHAR}
+            </if>
+            <if test="regionNo != null and regionNo != ''" >
+                and region_no = #{regionNo, jdbcType=VARCHAR}
+            </if>
+            <if test="liveCourse != null and liveCourse != ''" >
+                and live_course = #{liveCourse, jdbcType=VARCHAR}
+            </if>
+            <if test="userPin != null and userPin != ''" >
+                and user_pin = #{usrPin, jdbcType=VARCHAR}
+            </if>
+            <if test="startDate != null and startDate!=''" >
+              <![CDATA[ and createtime >= #{startDate} ]]>
+            </if>
+            <if test="endDate != null and endDate !=''" >
+                <![CDATA[ and createtime <= #{endDate}  ]]>
+            </if>
+        </where>
+    </select>
+
+    <select id="querySchoolLiveRecord" resultMap="schoolLiveRecordMap" parameterType="com.springmvc.entity.domain.Page">
+        select
+        <include refid="Base_Column_List" />
+        from school_live_report
+        <where>
+            <include refid="Select_Page_Condition"/>
+        </where>
+        order by id desc
+        LIMIT #{skip},#{size}
+    </select>
+
+    <sql id="Base_Column_List">
+        id,user_pin,user_name,region_no,region_name,distribute_no,distribute_name,
+        shop_no,shop_name,live_course,course_teacher,time_per_viewer,join_time,leave_time
+    </sql>
+
+    <resultMap id="schoolLiveRecordMap" type="com.jd.las.jdams2.school.live.domain.SchoolLiveRecord">
+        <result column="id" property="id"></result>
+        <result column="user_pin" property="userPin"></result>
+        <result column="user_name" property="userName"></result>
+        <result column="region_no" property="regionNo"></result>
+        <result column="region_name" property="regionName"></result>
+        <result column="distribute_no" property="distributeNo"></result>
+        <result column="distribute_name" property="distributeName"></result>
+        <result column="shop_no" property="shopNo"></result>
+        <result column="shop_name" property="shopName"></result>
+        <result column="live_course" property="liveCourse"></result>
+        <result column="course_teacher" property="courseTeacher"></result>
+        <result column="time_per_viewer" property="timePerViewer"></result>
+        <result column="join_time" property="joinTime"></result>
+        <result column="leave_time" property="leaveTime"></result>
+
+    </resultMap>
+
+    <sql id="Select_Page_Condition">
+        yn = 1
+        <if test="param!=null and param.userPin != null and param.userPin != ''" >
+            and user_pin like CONCAT('%',#{param.userPin},'%' )
+        </if>
+        <if test="param!=null and param.regionNo != null and param.regionNo != ''" >
+            and region_no = #{param.regionNo}
+        </if>
+        <if test="param!=null and param.courseTeacher != null and param.courseTeacher != ''" >
+            and course_teacher like CONCAT('%',#{param.courseTeacher},'%' )
+        </if>
+        <if test="param!=null and param.liveCourse != null and param.liveCourse != ''" >
+            and live_course like CONCAT('%',#{param.liveCourse},'%' )
+        </if>
+        <if test="param!=null and param.startDate != null and param.startDate!=''" >
+            and createtime >= #{param.startDate}
+        </if>
+        <if test="param!=null and param.endDate != null and param.endDate!=''" >
+            <![CDATA[ and createtime <= #{param.endDate}  ]]>
+        </if>
+    </sql>
+
+    <select id="isSchoolLiveRecordExist" resultType="int" parameterType="com.springmvc.entity.domain.SchoolLiveRecord">
+        select count(1)
+        from school_live_report
+        <where>
+            1=1
+            <if test="id != null and id !=''">
+               and  id =#{id, jdbcTyep = Int}
+            </if>
+            <if test="liveCourse != null and liveCourse !=''">
+                and liveCourse = #{liveCourse, jdbcType=VARCHAR}
+            </if>
+        </where>
+    </select>
+    <update id="updateSchoolLiveRecord" parameterType="com.springmvc.entity.domain.SchoolLiveRecord">
+        update school_live_report
+        <set>
+            <if test="userName != null and userName !=''">
+            and  user_name =#{userName, jdbcType =VARCHAR}
+            </if>
+            <if test="regionName != null and regionName !=''">
+                and  region_name =#{regionName, jdbcType =VARCHAR}
+            </if>
+            <if test="liveCourse != null and liveCourse !=''">
+                and  live_course =#{liveCourse, jdbcType =VARCHAR}
+            </if>
+            <if test="distributeName != null and distributeName !=''">
+                and  distribute_name =#{distributeName, jdbcType =VARCHAR}
+            </if>
+        </set>
+        where
+          id = #{id}
+    </update>
+    <!--逻辑删除-->
+    <update id="delLiveRecrdById" parameterType="int">
+        update school_live_report
+        set  isDelete = 0
+        where  id = #{id, jdbcType = INT}
+    </update>
+
+   <delete id="delLiveRecordById_real " parameterType="int">
+       delete from school_live_report
+       where id = {id, jdbcType = INT}
+   </delete>
+</mapper>

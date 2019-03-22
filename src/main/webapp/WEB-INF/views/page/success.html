@@ -1,0 +1,165 @@
+<link rel="stylesheet" type="text/css" href="/static/css/flexigrid/flexigrid.css" />
+<link rel="stylesheet" type="text/css" href="/static/css/multiselect/bootstrap-multiselect.css" />
+<script type="text/javascript" src="/static/js/common/common-ui.js"></script>
+<script type="text/javascript" src="/static/js/flexigrid/flexigrid.js"></script>
+<script type="text/javascript" src="/static/js/DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="/static/js/util/areaCascade.js"></script>
+<script type="text/javascript" src="/static/js/multiselect/bootstrap-multiselect.js"></script>
+<script type="text/javascript" src="/static/js/util/fourGradeAddress.js"></script>
+<script type="text/javascript" src="/static/js/util/smallWindow.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        //表格
+        var tableCol = [
+            {
+                display: '序号', name: 'index', width: 40, align: 'left', exportFlag: 'false',
+                process: function (tdDiv, id) {
+                    rowSequence++;
+                    $(tdDiv).html(rowSequence);
+                }
+            },
+            {display: '编号', name: 'id', width: 40, align: 'left'},
+            {display: 'ERP', name: 'boundErp', width: 220, align: 'left'},
+            {display: '姓名', name: 'userName', width: 220, align: 'left'},
+            {display: '区域', name: 'orgName', width: 220, align: 'left'},
+            {display: '运营中心', name: 'distributeName', width: 250, align: 'left'},
+            {display: '角色', name: 'roleName', width: 220, align: 'left'},
+            {display: '京东账号', name: 'extranetNo', width: 220, align: 'left'}
+        ];
+
+        $('.tableComponent').flexigrid({
+            idProperty: "id",
+            height: 500,
+            showToggleBtn: true,
+            singleSelect: true,
+            resizable: true,
+            colMove: true,
+            usepager: true,
+            colModel: tableCol,
+            onSubmit: function () {
+                rowSequence = 0;
+                return true;
+            }
+        });
+    });
+
+       $("#query").on('click', function(){
+        $('.tableComponent').flexOptions({
+               url: "../user/queryForMultiOrg",
+               dataType:  'json',
+               params:  [
+                   {'name': 'erpOrName', 'value': $("#erpOrName").val()},
+                   {'name': 'area', 'value': $("#area").val()},
+                   {'name': 'operateCenter', 'value': $("#operateCenter").val()},
+                   {'name': 'roleList', 'value': $("#roleList").val()},
+                   {'name': 'extranetNo', 'value': $("#extranetNo").val()},
+                   {'name': 'tableCol', 'value': JSON.stringify(tableCol)}
+               ]
+           });
+              $('.tableComponent').flexOptions({
+                  newp: "1"
+              }).flexReload();
+    });
+</script>
+
+
+
+<div class="container-fluids">
+    <div class="well well-sm">
+        <form id="formReserve" class="form-horizontal" method="post">
+            <div class="row">
+                <label for="erpOrName" class="col-sm-1">用户</label>
+                <div class="col-sm-3">
+                    <input name="erpOrName" id="erpOrName" placeholder="ERP账号或姓名或京东账号" class="form-control input-sm">
+                </div>
+
+                <label for="area" class="col-sm-1">区域</label>
+                <div class="col-sm-3">
+                    <select name="area" id="area" class="form-control input-sm"></select>
+                </div>
+                <label for="operateCenter" class="col-sm-1">运营中心</label>
+                <div class="col-sm-3">
+                    <select name="operateCenter" id="operateCenter" class="form-control input-sm"></select>
+                </div>
+                <label for="roleList" class="col-sm-1">角色</label>
+                <div class="col-sm-3">
+                    <select id="roleList" multiple="multiple"></select>
+                </div>
+
+                <div class="col-sm-1 col-sm-offset-1">
+                    <button type="button" id="query" class="bootstrapBtn">查询</button>
+                </div>
+                <div class="col-sm-1  ">
+                    <button type="button" id="update" class="bootstrapBtn">修改</button>
+                </div>
+                <div class="col-sm-1">
+                    <button type="button" id="delBtn" class="bootstrapBtn">删除</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="row-fluid" >
+        <table class="tableComponent" id="tableComponent"></table>
+    </div>
+    <div class="modal fade" id="updateMode" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #39b3d7;padding-top:5px; padding-bottom:5px;">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" style="align-content: center" id="myModalLabel">用户详情</h4>
+                </div>
+                <div>
+                    <form id="upateForm" class="form-inline" style="padding-left: 10px; padding-bottom:15px;" method="post" action="">
+                        <div class="row" style="padding-top: 15px;">
+                            <label for="idM" class="col-sm-2">编号</label>
+                            <div class="col-sm-4">
+                                <input id="idM" class="form-control input-sm">
+                            </div>
+                            <label for="userNameM" class="col-sm-2">用户名</label>
+                            <div class="col-sm-4">
+                                <input id="userNameM" class="form-control input-sm">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="extranetNoM" class="col-sm-2">京东账号</label>
+                            <div class="col-sm-4">
+                                <input id="extranetNoM" placeholder="未绑定京东账号" class="form-control input-sm">
+                            </div>
+                            <label for="boundErpM" class="col-sm-2">ERP</label>
+                            <div class="col-sm-4">
+                                <input id="boundErpM" class="form-control input-sm">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="mac1M" class="col-sm-2">手机设备1</label>
+                            <div class="col-sm-4">
+                                <input id="mac1M" class="form-control input-sm">
+                            </div>
+                            <label for="brand1M" class="col-sm-2">手机品牌</label>
+                            <div class="col-sm-4">
+                                <input id="brand1M" class="form-control input-sm">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <label for="mac2M" class="col-sm-2">手机设备2</label>
+                            <div class="col-sm-4">
+                                <input id="mac2M" class="form-control input-sm">
+                            </div>
+                            <label for="brand2M" class="col-sm-2">手机品牌</label>
+                            <div class="col-sm-4">
+                                <input id="brand2M" class="form-control input-sm">
+                            </div>
+                        </div>
+                        <div class="modal-row" >
+                            <div class="form-group" style="padding-left:150px; padding-top: 24px;" >
+                                <button type="button" id="updateM" class="bootstrapBtn" style="width:90px;">修改</button>
+                                <button type="button" id="cancelM" class="bootstrapBtnWarning"  style="width:90px;">取消 </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

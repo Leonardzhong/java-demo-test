@@ -1,0 +1,26 @@
+[{
+    "UID": "1",
+    "Name": "项目范围规划",
+    "Duration": 8,
+    "Start": "2007-01-01T00:00:00",
+    "Finish": "2007-01-10T00:00:00",
+    "PercentComplete": 0,
+    "Summary": 1,
+    "Critical": 0,
+    "Milestone": 0,
+    "PredecessorLink": [],
+    "ParentTaskUID": -1
+},
+{
+    "UID": "2",
+    "Name": "确定项目范围",
+    "Duration": 1,
+    "Start": "2007-01-01T00:00:00",
+    "Finish": "2007-01-01T23:23:59",
+    "PercentComplete": 30,
+    "Summary": 0,
+    "Critical": 0,
+    "Milestone": 0,
+    "PredecessorLink": [],
+    "ParentTaskUID": "1"
+}]

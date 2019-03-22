@@ -1,0 +1,45 @@
+ol, ul {
+    list-style: none
+}
+.list-group {
+    float: left;
+    width: 100%;
+    background: #f8f8f8;
+    font-size: 14px;
+    /*padding-bottom: 9999px;*/
+    margin-bottom: -9999px
+}
+.list-group li a {
+    text-align:left;
+    float: left;
+    font: 15px/150% 'Microsoft Yahei', Arial, Verdana, "\5b8b\4f53";
+    display: block;
+    height: 40px;
+    width: 90%;
+    line-height: 40px;
+    padding-left: 10px
+}
+.list-group li a:hover {
+    color: #f24f44;
+    /*color: #31708f;*/
+    background-color: #c4e3f3
+}
+
+.list-group li a b {
+    float: left;
+    width: 4px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 36px;
+    background: #f15144;
+    visibility: hidden
+}
+
+.list-group .curr a {
+    color: #f24f44;
+    background: #fff
+}
+
+.list-group .curr a b {
+    visibility: visible;
+}

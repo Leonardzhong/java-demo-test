@@ -1,0 +1,35 @@
+
+
+
+.plr-goods-ad-1-4{margin-bottom: 0!important;font-family: "微软雅黑", "Microsoft YaHei", "黑体", "SimHei";}
+.plr-goods-ad-1-4 .mt{}
+.plr-goods-ad-1-4 .mc{overflow:hidden;}
+.plr-goods-ad-1-4 .mb{display:none;}
+.plr-goods-ad-1-4 .mc ul{width:100%; padding-bottom: 40px;}
+.plr-goods-ad-1-4 li{position:relative;float:left; width:238.5px;height:362px;margin:0 9px 10px 0; overflow:hidden; border:1px solid #eee;}
+.plr-goods-ad-1-4 li.item-last{margin-right:0;}
+.plr-goods-ad-1-4 li a{position:absolute;top:0;left:0;display:block; width:100%;height:100%;background: url(about:blank);}
+
+.plr-goods-ad-1-4 li .border3{position:absolute;top:0;left:0;display:none;width:233px;height:356px;border:3px solid #ed1c24;}
+.plr-goods-ad-1-4 li a:hover .border3{display:block;cursor:pointer;}
+.plr-goods-ad-1-4 .jPic{position:relative; width:230x; height:240px;border-bottom:1px solid #f4f4f4;text-align:center; background:#fff url(//img11.360buyimg.com/cms/jfs/t853/64/222820902/5860/54fc0ad5/550bc4d5N2164a1f4.gif) no-repeat -35px 35px;}
+.plr-goods-ad-1-4 .jPic img{vertical-align:middle;}
+.plr-goods-ad-1-4 .jGoodsInfo{overflow:hidden; *zoom:1; padding:10px 10px 25px 11px;  background-color: #fff;}
+.plr-goods-ad-1-4 .jDesc{height:35px; overflow:hidden; }
+.plr-goods-ad-1-4 .jDesc span{color:#999; text-decoration:none; font-size:12px; line-height: 19px;}
+.plr-goods-ad-1-4 .ad{height:13px; overflow:hidden; padding-top:8px;}
+.plr-goods-ad-1-4 .ad span{color:#ed3a45; text-decoration:none; font-size:12px; line-height: 13px;}
+.plr-goods-ad-1-4 .jPrice{overflow:hidden; font-size:0; margin-top:4px;}
+.plr-goods-ad-1-4 .jPrice .jText{display:block;color:#ed3a45; font-size:12px; font-weight: bold;}
+.plr-goods-ad-1-4 .jPrice .jRmb{margin-left:0;color:#999;font-size:16px; }
+.plr-goods-ad-1-4 .jPrice .jdNum{font-size:20px;font-family:Microsoft YaHei}
+.plr-goods-ad-1-4 .jBtnArea{overflow:hidden; position:absolute; right:10px; bottom:12px;}
+.plr-goods-ad-1-4 .jBtnArea span{display:block; width:80px; height:25px; text-align:center; font:14px/24px "微软雅黑","Microsoft YaHei","黑体","SimHei";text-decoration:none; color:#fefefe; background-color:#ED3A45;_background-image:none; }
+.plr-goods-ad-1-4 .top-tips{display:block;position:absolute;width:71px; height:74px; line-height:20px; padding-top:12px; top:8px;right:6px;text-align:center;color:#fff; font-size: 13px; background:url(//img14.360buyimg.com/cms/jfs/t1840/6/1417269964/13809/9a2c3e0d/565d0156N0384573c.png) no-repeat 0 0; }
+
+.clearfloat{zoom:1;}
+/*.clearfloat:after{display:block;clear:both; content:"";visibility:hidden;height:0;} */
+.mod-990{width:990px;margin:0 auto;}
+#b{}
+.userdefined-153704 .j-module{zoom:1; overflow:hidden;}
+

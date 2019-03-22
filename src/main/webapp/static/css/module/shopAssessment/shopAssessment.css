@@ -1,0 +1,218 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.switchAll {
+    padding-left: 10px !important;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    background-color: #c01213;
+    min-width: 1280px;
+}
+
+.projectTitle {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    color: #ffffff;
+    margin: 10px;
+    padding-left: 45px;
+    padding-right: 100px;
+}
+
+.linkHref {
+    color: #FFFFFF;
+    float: left;
+    line-height: 40px;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-shadow: none;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #CE4648;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125) inset;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logoutContainer {
+    position: absolute;
+    right: 30px;
+    top: 22px;
+    display: block;
+    text-align: right;
+}
+
+.logoutContainer .logout {
+    cursor: pointer;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.list-group {
+    text-align: center;
+    margin: 0 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.075);
+    padding-left: 0;
+}
+
+.marginTop75 {
+    margin-top: 75px;
+}
+
+.paddingRight0 {
+    padding-right: 0px;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+label {
+    font-weight: normal;
+}
+
+.paddingTop4 {
+    padding-top: 4px;
+}
+
+.noMarginLeft {
+    margin-left: 0px;
+}
+
+.noPaddingLeft {
+    padding-left: 0px !important;
+}
+
+.noMarginRight {
+    margin-right: 0px;
+}
+
+.noPaddingRight {
+    padding-right: 0px !important;
+}
+
+.paddingLeft5 {
+    padding-left: 5px !important;
+}
+
+.specialRow .col-xs-2, .specialRow .col-md-2, .specialRow .col-xs-10, .specialRow .col-md-10 {
+    margin-top: 4px;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.marginLeft10 {
+    margin-left: 10px;
+}
+
+.btnseparator {
+    float: left;
+    height: 30px;
+    border-left: 1px solid rgb(204, 204, 204);
+    border-right: 1px solid rgb(255, 255, 255);
+    margin: 1px;
+    margin-left: 10px;
+}
+
+.footerSelector {
+    width: 70px;
+    float: left;
+}
+
+.pageNoInput {
+    width: 62px;
+    float: left;
+}
+
+.firstPage, .prevPage, .refreshBtn, .nextPage, .lastPage {
+    float: left;
+    color: #46b8da;
+    line-height: 22px;
+    margin-left: 5px;
+}
+
+.refreshBtn {
+    color: #449d44;
+}
+
+.pageNoInputContainer {
+    line-height: 30px;
+}
+
+.footerInfo {
+    line-height: 30px;
+    float: left;
+    margin-left: 5px;
+}
+
+.btnPlace {
+    margin-bottom: 5px;
+}
+
+#resultGrid  {
+    border: 1px solid #ddd;
+}
+
+#resultGrid thead th {
+    border-color: #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: normal !important;
+    text-align: left;
+}
+
+#resultGrid thead th:not(:last-child), #resultGrid tbody tr td:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+#resultGrid tfoot th {
+    border-color: #ddd;
+    text-align: left;
+}
+
+#resultgrid tbody td {
+    text-align: left;
+}
+
+.bgContainer {
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+    font-weight: normal !important;
+}
+
+thead {
+    background: rgb(217, 237, 247);
+}
+
+.table-row:hover {
+    background-color: rgb(250, 240, 190);
+}
+
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+    background-color: rgb(250, 240, 190);
+}
