@@ -20,7 +20,7 @@ public class PartitionLabels {
         System.out.println(res);
     }
 
-    private static List<Integer> partitionLabels(String S) {
+    private static List<Integer> partitionLabels(String s) {
         List<Integer> res = new ArrayList<>();
         Map<Character, Integer> map = new HashMap<>();
         int l = S.length();
