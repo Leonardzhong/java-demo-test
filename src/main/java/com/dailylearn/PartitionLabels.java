@@ -23,14 +23,14 @@ public class PartitionLabels {
     private static List<Integer> partitionLabels(String s) {
         List<Integer> res = new ArrayList<>();
         Map<Character, Integer> map = new HashMap<>();
-        int l = S.length();
+        int l = s.length();
         int start = 0;
         int end = 0;
         for(int i = 0; i < l; i++){
-            map.put(S.charAt(i), i);
+            map.put(s.charAt(i), i);
         }
         for (int i = 0; i < l; i++){
-            end = map.get(S.charAt(i)) > end ? map.get(S.charAt(i)) : end;
+            end = map.get(s.charAt(i)) > end ? map.get(s.charAt(i)) : end;
             if (i == end) {
                 res.add(end - start + 1);
                 start = i + 1;
