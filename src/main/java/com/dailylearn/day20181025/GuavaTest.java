@@ -22,7 +22,7 @@ public class GuavaTest {
         CommonDTO commonDTO1 = new CommonDTO("123321", 11, 1232344343L);
         CommonDTO commonDTO2 = new CommonDTO("123322", 12, 1232344343L);
         System.out.println(commonDTO.toString());
-        System.out.println(Objects.toStringHelper(commonDTO).add("orderId", 32332).toString());
+      //  System.out.println(Objects.toStringHelper(commonDTO).add("orderId", 32332).toString());
 
         Ordering byLengthOrdering = new Ordering() {
             @Override
