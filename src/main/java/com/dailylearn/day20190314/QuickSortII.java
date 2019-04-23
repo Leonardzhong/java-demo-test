@@ -13,13 +13,13 @@ public class QuickSortII {
     private static int partition(int[] nums, int left, int right) {
         int pivot = nums[left], l = left + 1, r = right;
         while (l <= r) {
-            if (nums[l] < pivot && nums[r] > pivot) {
+            if (nums[l] > pivot && nums[r] < pivot) {
                 swap(nums, l, r);
                 l++;
                 r--;
             }
-            if (nums[l] >= pivot) ++l;
-            if (nums[r] <= pivot) --r;
+            if (nums[l] <= pivot) ++l;
+            if (nums[r] >= pivot) --r;
         }
         swap(nums, left, r);
         return r;
