@@ -24,9 +24,9 @@ public class MergeSort {
         int cIndex = left;
         while (left <= mid && r1 <= right) {
             if (nums[left] <= nums[r1]) {
-                tmp[tIndex] = nums[left++];
+                tmp[tIndex++] = nums[left++];
             } else {
-                tmp[tIndex] = nums[r1++];
+                tmp[tIndex++] = nums[r1++];
             }
 
             while (left <= mid) {
