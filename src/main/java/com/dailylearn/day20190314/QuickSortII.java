@@ -22,7 +22,7 @@ public class QuickSortII {
             if (nums[r] >= pivot) --r;
         }
         swap(nums, left, r);
-        return r;
+        return left;
     }
 
     public static void swap(int[] nums, int i , int j){
