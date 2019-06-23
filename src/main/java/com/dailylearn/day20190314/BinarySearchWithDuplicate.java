@@ -3,10 +3,10 @@ package com.dailylearn.day20190314;
 public class BinarySearchWithDuplicate {
 
     public static void main(String[] args) {
-        int[] nums = {0, 1, 1, 2, 3, 4};
+        int[] nums = {1, 1, 2, 4};
         int target = 1;
-//        int index = binarySearchLeft(nums, target);
-        int index = binarySearchRight(nums, target);
+        int index = binarySearchLeft(nums, target);
+        //int index = binarySearchRight(nums, target);
         System.out.println(index);
     }
 

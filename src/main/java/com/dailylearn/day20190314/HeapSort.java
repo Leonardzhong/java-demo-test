@@ -15,7 +15,7 @@ public class HeapSort {
         int[] num = {1, 4, 5, 3, 8, 2, 6, 9};
         printNum(num);
         heapSort(num);
-        System.out.println();
+        System.out.println("-------");
         printNum(num);
     }
 

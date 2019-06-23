@@ -10,7 +10,7 @@ import java.util.Arrays;
  */
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 4};
+        int[] nums = new int[]{0};
         //int[] nums = {1};
         Arrays.sort(nums);
         for (int num : nums) {
@@ -18,24 +18,23 @@ public class BinarySearch {
         }
         System.out.println("------------");
         int l = nums.length - 1;
-        int index = binarySearchRecursively(nums, 0, 0, l);
+       // int index = binarySearchRecursively(nums, 0, 0, l);
+        int index = binarySearch(nums, 1, 0, l);
         System.out.println(index);
     }
 
     private static int binarySearch(int[] nums, int i, int low, int high) {
-        int index = 0;
-        while (low < high) {
+        while (low <= high) {
             int mid = low + (high - low) / 2;
             if (nums[mid] < i) {
                 low = mid + 1;
             } else if (nums[mid] > i) {
-                high = mid;
+                high = mid - 1;
             } else {
-                index = mid;
-                return index;
+                return mid;
             }
         }
-        return index;
+        return -1;
     }
 
     private static int binarySearchRecursively(int[] nums, int i, int low, int high) {
@@ -54,4 +53,5 @@ public class BinarySearch {
         }
         return -1;
     }
+
 }

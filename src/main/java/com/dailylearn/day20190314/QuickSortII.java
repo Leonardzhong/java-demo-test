@@ -2,16 +2,25 @@ package com.dailylearn.day20190314;
 
 public class QuickSortII {
 
+    public static void main(String[] args) {
+        int[] a = {4,5,3, 2, 1};
+        int low = 0;
+        int high = a.length-1;
+        quickSort(a, low, high);
+        for (int i:a){
+            System.out.println(i);
+        }
+    }
     private static void quickSort(int[] a, int low, int high) {
         if (a == null || a.length <= 0 || low >= high) {
             return;
         }
         int pivot = partition(a, low, high);
-        quickSort(a, low, pivot);
+        quickSort(a, low, pivot-1);
         quickSort(a, pivot + 1, high);
     }
     private static int partition(int[] nums, int left, int right) {
-        int pivot = nums[left], l = left + 1, r = right;
+        int pivot = nums[left], l = left, r = right;
         while (l <= r) {
             if (nums[l] > pivot && nums[r] < pivot) {
                 swap(nums, l, r);
