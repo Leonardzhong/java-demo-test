@@ -31,21 +31,21 @@ public class BinarySearchWithDuplicate {
 
     }
 
-    public static int binarySearchRight(int[] arr,int target){
-        if(arr==null||arr.length==0){
+    public static int binarySearchRight(int[] arr, int target) {
+        if (arr == null || arr.length == 0) {
             return -1;
         }
         int left = 0;
-        int right = arr.length-1;
-        while(left<right){
-            int mid = (left+right)/2;
-            if(arr[mid]<=target){
+        int right = arr.length - 1;
+        while (left < right) {
+            int mid = (left + right) / 2;
+            if (arr[mid] <= target) {
                 left = mid;
-            }else {
-                right = mid-1;
+            } else {
+                right = mid - 1;
             }
         }
-        if(arr[left]==target){
+        if (arr[left] == target) {
             return left;
         }
         return -1;

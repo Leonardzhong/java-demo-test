@@ -1,7 +1,7 @@
 package com.dailylearn.day20190314;
 
 public class QuickSortII {
-
+    //todo  this algorithm is not fully correct
     public static void main(String[] args) {
         int[] a = {4,5,3, 2, 1};
         int low = 0;

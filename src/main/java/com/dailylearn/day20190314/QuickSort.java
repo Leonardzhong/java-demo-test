@@ -10,7 +10,7 @@ package com.dailylearn.day20190314;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int[] a = new int[]{1, 3, 2, 5, 9, 8, 7};
+        int[] a = new int[]{3, 2, 1};
         quickSort(a, 0, a.length - 1);
         print(a);
     }
