@@ -31,7 +31,7 @@ public class LengthOfLIS_20210401 {
         for (int i = 1; i < n; i++) {
             dp[i] = 1;
             for (int j = 0; j < i; j++) {
-                if(nums[i] > nums[j]){
+                if (nums[i] > nums[j]) {
                     dp[i] = Math.max(dp[i], dp[j] + 1);
                 }
             }
