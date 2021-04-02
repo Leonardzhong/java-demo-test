@@ -1,4 +1,4 @@
-package demo.core.day20210330;
+package demo.core;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -10,7 +10,7 @@ import java.util.List;
  *
  * https://leetcode-cn.com/problems/n-queens/submissions/
  */
-public class N_queensProblem {
+public class N_queensProblem_20210330 {
 
     public static void main(String[] args) {
         System.out.println(solveNQueens(4));
