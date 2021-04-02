@@ -1,4 +1,4 @@
-package demo.core.day20210330;
+package demo.core;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,7 +10,7 @@ import java.util.List;
  * <p>
  * https://leetcode-cn.com/problems/triangle/
  */
-public class MinimumTotalTriangle {
+public class MinimumTotalTriangle_20210330 {
 
     public static void main(String[] args) {
         List<Integer> list1 = Arrays.asList(2);

@@ -1,10 +1,10 @@
-package demo.core.day20210330;
+package demo.core;
 
 
 /**
  *
  */
-public class MinPathSum {
+public class MinPathSum_20210331 {
 
     public static void main(String[] args) {
         int[][] grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
