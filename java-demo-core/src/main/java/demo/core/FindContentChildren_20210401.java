@@ -1,5 +1,7 @@
 package demo.core;
 
+import java.util.Arrays;
+
 /**
  * @author zhongya
  * @date 2021/4/1 16:33
@@ -16,10 +18,28 @@ package demo.core;
 public class FindContentChildren_20210401 {
 
     public static void main(String[] args) {
-
+        int[] g = {10,9,8,7};
+        int[] s = {5,6,7,8};
+        System.out.println(findContentChildren(g, s));
     }
 
-    public int findContentChildren(int[] g, int[] s) {
-        return 0;
+    public static int findContentChildren(int[] g, int[] s) {
+        Arrays.sort(g);
+        Arrays.sort(s);
+        int i = 0;
+        int j = 0;
+        int gLength = g.length;
+        int sLength = s.length;
+        int res = 0;
+        while (i < gLength && j < sLength) {
+            if (g[i] <= s[j]) {
+                i++;
+                j++;
+                res++;
+            }else{
+                j++;
+            }
+        }
+        return res;
     }
 }
