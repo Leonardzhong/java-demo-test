@@ -1,4 +1,4 @@
-package demo.core.dailylearn.day1102.jdkdynamicproxy;
+package demo.core.dailylearn.day1102_proxy.jdkdynamicproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

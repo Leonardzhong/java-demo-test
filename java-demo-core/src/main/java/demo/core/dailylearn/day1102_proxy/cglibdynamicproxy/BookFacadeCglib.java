@@ -1,4 +1,4 @@
-package demo.core.dailylearn.day1102.cglibdynamicproxy;
+package demo.core.dailylearn.day1102_proxy.cglibdynamicproxy;
 
 
 import net.sf.cglib.proxy.Enhancer;

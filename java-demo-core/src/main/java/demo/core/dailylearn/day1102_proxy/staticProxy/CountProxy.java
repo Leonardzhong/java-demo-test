@@ -1,4 +1,4 @@
-package demo.core.dailylearn.day1102.staticProxy;
+package demo.core.dailylearn.day1102_proxy.staticProxy;
 
 /**
  * Created by zhongya on 2017/11/3.

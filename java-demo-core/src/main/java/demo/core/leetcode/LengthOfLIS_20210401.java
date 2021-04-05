@@ -1,4 +1,4 @@
-package demo.core;
+package demo.core.leetcode;
 
 
 /**

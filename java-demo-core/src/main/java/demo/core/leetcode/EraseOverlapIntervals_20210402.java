@@ -1,4 +1,6 @@
-package demo.core;
+package demo.core.leetcode;
+
+import java.util.Arrays;
 
 /**
  * @author zhongya
@@ -19,28 +21,24 @@ public class EraseOverlapIntervals_20210402 {
     public static void main(String[] args) {
         int[][] intervals = {{1, 2}, {2, 3}, {3, 4}, {1, 3}};
         System.out.println(eraseOverlapIntervals(intervals));
-
     }
 
 
     public static int eraseOverlapIntervals(int[][] intervals) {
-        int m = intervals.length;
-        int n = 2;
-        int[][] erasedOverlapIntervals = new int[m][n];
-        for(int i = 0; i < m; i++){
-            int[] tmp = intervals[i];
-            int left = tmp[0];
-            int right = tmp[1];
-            for(int j = 0; j < erasedOverlapIntervals.length; j++){
-                int[] erased = erasedOverlapIntervals[j];
-                if (erased[1] < left || erased[0] > right) {
-
-                } else {
-
-                }
+        int n = intervals.length;
+        if (n == 0) {
+            return 0;
+        }
+        Arrays.sort(intervals, ((o1, o2) -> o1[1] - o2[1]));
+        int res = 1;
+        int right = intervals[0][1];
+        for (int i = 1; i < n; i++) {
+            if (intervals[i][0] >= right) {
+                res++;
+                right = intervals[i][1];
             }
         }
-        return 0;
+        return n - res;
     }
 
 }
