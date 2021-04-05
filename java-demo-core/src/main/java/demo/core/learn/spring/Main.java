@@ -1,5 +1,6 @@
 package demo.core.learn.spring;
 
+import demo.core.learn.spring.service.Bar;
 import demo.core.learn.spring.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -14,6 +15,9 @@ public class Main {
         UserService userService = context.getBean("userService", UserService.class);
         userService.getName("leonard");
         userService.getUserById(1L);
+        userService.getMyValue();
 
+        Bar barService = (Bar) context.getBean("barService");
+        barService.test();
     }
 }
