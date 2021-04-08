@@ -1,5 +1,7 @@
 package demo.core.leetcode;
 
+import java.util.Arrays;
+
 /**
  * @author zhongya
  * @date 2021/4/6 16:16
@@ -23,7 +25,7 @@ public class MaxCoins_20210406 {
         System.out.println(maxCoins(nums));
 
     }
-    public static int maxCoins(int[] nums) {
+    public static int maxCoins(int[] nums){
         return 0;
     }
 }
