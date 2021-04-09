@@ -1,6 +1,8 @@
 package demo.core.leetcode;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @author leonard
@@ -22,6 +24,7 @@ public class LongestConsecutive_20210408 {
     public static void main(String[] args) {
         int[] nums = {1, 2, 0, 1};
         System.out.println(longestConsecutive(nums));
+        System.out.println(longestConsecutive1(nums));
     }
 
     public static int longestConsecutive(int[] nums) {
@@ -41,6 +44,26 @@ public class LongestConsecutive_20210408 {
                 count = 1;
             }
             res = Math.max(res, count);
+        }
+        return res;
+    }
+
+    private static int longestConsecutive1(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for(int num : nums)
+            set.add(num);
+        int res = 0;
+        for(int num : nums){
+            if(set.contains(num - 1)){
+                continue;
+            }
+            else{
+                //len记录以num为左边界的连续序列的长度
+                int len = 0;
+                while(set.contains(num++))
+                    len++;
+                res = Math.max(res, len);
+            }
         }
         return res;
     }

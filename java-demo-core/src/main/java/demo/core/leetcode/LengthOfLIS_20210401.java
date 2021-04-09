@@ -1,9 +1,6 @@
 package demo.core.leetcode;
 
 
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * 给你一个整数数组 nums ，找到其中最长严格递增子序列的长度。
  * <p>
@@ -18,27 +15,6 @@ public class LengthOfLIS_20210401 {
     public static void main(String[] args) {
         int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
         System.out.println(lengthOfLIS(nums));
-        System.out.println(lengthOfLIS1(nums));
-    }
-
-    private static int lengthOfLIS1(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        for(int num : nums)
-            set.add(num);
-        int res = 0;
-        for(int num : nums){
-            if(set.contains(num - 1)){
-                continue;
-            }
-            else{
-                //len记录以num为左边界的连续序列的长度
-                int len = 0;
-                while(set.contains(num++))
-                    len++;
-                res = Math.max(res, len);
-            }
-        }
-        return res;
     }
 
     public static int lengthOfLIS(int[] nums) {
