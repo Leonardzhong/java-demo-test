@@ -1,4 +1,4 @@
-package demo.core.dailylearn;
+package demo.core.leetcode;
 
 /**
  * Demo

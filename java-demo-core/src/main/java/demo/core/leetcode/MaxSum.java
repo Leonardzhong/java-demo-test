@@ -1,4 +1,4 @@
-package demo.core.dailylearn.day20190316;
+package demo.core.leetcode;
 
 /**
  *  max sum of consecutive array

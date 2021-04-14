@@ -1,4 +1,4 @@
-package demo.core.dailylearn.day20190319;
+package demo.core.leetcode;
 
 /**
  * Demo

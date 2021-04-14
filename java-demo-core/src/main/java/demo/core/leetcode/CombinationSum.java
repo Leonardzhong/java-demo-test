@@ -1,4 +1,4 @@
-package demo.core.dailylearn;
+package demo.core.leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,8 +8,8 @@ public class CombinationSum {
 
     public static void main(String[] args) {
         int[] candidates = new int[]{2, 3};
-        int target = 5;
-        List<List<Integer>> res = new ArrayList<>();
+        int target = 12;
+        List<List<Integer>> res;
         res = combinationSum(candidates, target);
         System.out.println(res);
     }
@@ -17,7 +17,7 @@ public class CombinationSum {
     public static List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> list = new ArrayList<List<Integer>>();
         Arrays.sort(candidates);
-        backtrack(list, new ArrayList<Integer>(), candidates, target, 0);
+        backtrack(list, new ArrayList<>(), candidates, target, 0);
         return list;
 
     }

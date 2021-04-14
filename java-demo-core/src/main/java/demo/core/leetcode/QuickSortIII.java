@@ -1,4 +1,4 @@
-package demo.core.dailylearn.day20190314;
+package demo.core.leetcode;
 
 import java.util.Arrays;
 
