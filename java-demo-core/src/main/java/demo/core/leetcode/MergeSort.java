@@ -3,8 +3,11 @@ package demo.core.leetcode;
 public class MergeSort {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{8, 4, 2, 9, 10};
+        int[] nums = new int[]{-1, 0, 8, 4, 2, 9, 10, 2};
         mergeSort(nums, 0, nums.length - 1);
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(nums[i]);
+        }
     }
 
     private static void mergeSort(int[] nums, int left, int right) {
@@ -28,14 +31,13 @@ public class MergeSort {
             } else {
                 tmp[tIndex++] = nums[r1++];
             }
+        }
 
-            while (left <= mid) {
-                tmp[tIndex++] = nums[left++];
-            }
-            while (r1 <= right) {
-                tmp[tIndex++] = nums[r1++];
-            }
-
+        while (left <= mid) {
+            tmp[tIndex++] = nums[left++];
+        }
+        while (r1 <= right) {
+            tmp[tIndex++] = nums[r1++];
         }
 
         while (cIndex <= right) {
