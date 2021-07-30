@@ -11,11 +11,23 @@ public class ScannerTest {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int a;
+
+        /*int a;
         int[] b = new int[3];
         for (int i = 0; i < 3; i++) {
             a = in.nextInt();
             b[i] = a;
+        }
+        System.out.println(Arrays.toString(b));*/
+
+        String a;
+        String[] b = new String[2];
+        for (int i = 0; i < 2; i++) {
+            //note: nextLine vs. next
+            if (in.hasNext()) {
+                a = in.next();
+                b[i] = a;
+            }
         }
         System.out.println(Arrays.toString(b));
     }
