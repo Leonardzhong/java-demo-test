@@ -3,11 +3,13 @@ package demo.core.leetcode;
 public class BinarySearchWithDuplicate {
 
     public static void main(String[] args) {
-        int[] nums = {1, 1, 2, 4};
+        int[] nums = {1, 1, 1, 2, 4};
         int target = 1;
-        int index = binarySearchLeft(nums, target);
-        //int index = binarySearchRight(nums, target);
-        System.out.println(index);
+        int indexLeft = binarySearchLeft(nums, target);
+        int indexRight = binarySearchRight(nums, target);
+        System.out.println("indexLeft=" + indexLeft);
+        System.out.println("indexRight=" + indexRight);
+
     }
 
     private static int binarySearchLeft(int[] arr, int target) {

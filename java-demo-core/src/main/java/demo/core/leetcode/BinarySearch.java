@@ -10,16 +10,16 @@ import java.util.Arrays;
  */
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] nums = new int[]{0};
+        int[] nums = new int[]{0, 1, 2, 2};
         //int[] nums = {1};
         Arrays.sort(nums);
         for (int num : nums) {
             System.out.println(num);
         }
-        System.out.println("------------");
+        System.out.println("----binary search result--------");
         int l = nums.length - 1;
        // int index = binarySearchRecursively(nums, 0, 0, l);
-        int index = binarySearch(nums, 1, 0, l);
+        int index = binarySearch(nums, 2, 0, l);
         System.out.println(index);
     }
 
